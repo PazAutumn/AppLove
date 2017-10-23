@@ -110,19 +110,18 @@ body {
   font-weight: bolder;
   position: fixed;
   background-color: #fff;
-  clear: right;
+  
 }
 
 img {
   width: 60px;
   margin-top: -10px; 
+  margin-right: 100px;
   height: auto;
   float: right;
-
 }
 
-#menu {
-  
+#menu {  
   padding-top: 50px;
   padding-left: 50px;
 }
@@ -138,14 +137,15 @@ img {
 #home {
   width: 100%;
   height: 500px;
-  text-align: center;
-  color: #fff;  
+  color: #fff; 
+  margin-top: 50px; 
   display: inline-block;
   background-color: #292D36FF;
   background-position: 0% 7%;
   background-repeat: no-repeat;
   background-image: url(../assets/images/bg-home.jpg);
   background-size: 100%;
+  text-align: center;
 }
 
 #home h2 {
@@ -178,9 +178,8 @@ img {
   width: 100%;
   height: 500px;
   background-color: #F17C72FF;
-  text-align: center;
-  color: white;
-  
+  color: white; 
+  text-align: center; 
 }
 
 #services h2 {
@@ -203,6 +202,7 @@ img {
 #services h6 {
   font-size: x-small;
   line-height: 1%;
+
 }
 
 #service-one {
@@ -219,8 +219,7 @@ img {
   background-image: url(../assets/images/services-2.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  float: left;
-  
+  float: left;  
 }
 
 #service-three {
@@ -228,14 +227,98 @@ img {
   background-repeat: no-repeat;
   background-size: 85%;
   float: left;
-  margin-left: 12.5em;
+  margin-left: 12.5em;  
+}
+
+.work {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: xx-large;
+  margin: 50px;
+}
+
+.work h4 {
+  margin-bottom: 50px; 
+  font-size: normal;
+}
+
+.hero {
+  width: 90%;
+  height: auto;
+  margin-top: 10px; 
+  margin-left: 80px;
+  float: left; 
   
 }
 
+.img h4 {
+  padding-top: 250px;
+  
+  
+}
 
+.img {
+  width: 290px;
+  height: 240px;
+  float: left;
+  margin: 80px 40px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 
+}
+ 
+.uno {
+  background-image: url(../assets/images/work-1.jpg);
+  margin-left: 200px;
+  
+}
 
+.dos {
+  background-image: url(../assets/images/work-2.jpg);
+}
 
+.tres {
+  background-image: url(../assets/images/work-3.jpg);
 
+}
 
+.cuatro {
+  background-image: url(../assets/images/work-4.jpg);
+  clear: left;
+  margin-left: 200px;
+}
 
+.cinco {
+  background-image: url(../assets/images/work-5.jpg);
+}
+
+.seis {
+  background-image: url(../assets/images/work-6.jpg);
+}
+
+.siete {
+  background-image: url(../assets/images/work-7.jpg);
+  clear: left;
+  margin-left: 200px;
+}
+
+.ocho {
+  background-image: url(../assets/images/work-10.jpg);
+}
+
+.nueve {
+  background-image: url(../assets/images/work-11.jpg);
+}
+
+.copyrigth {
+  width: 1350px;
+  height: 60px;
+  background-color: #373B47FF;
+  text-align: center;
+  color: white;
+  margin-top: 4px;
+}
