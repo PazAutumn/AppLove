@@ -75,26 +75,6 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
-/*body {
-  font-family: 'Raleway', sans-serif;
-}
-
-.container {
-  font-weight: bold;
-  float: left;
-  text-align: left;
-  position: fixed;
-  background-color: #fff;
-}
-
-
-img {
-  width: 80px;
-  height: auto;
-  text-align: justify-all;
-  float: right;
-  
-}*/
 .mansory {
   column-count: 1;
   column-gap: 1em;
@@ -109,8 +89,7 @@ body {
   margin-top: -20px;
   font-weight: bolder;
   position: fixed;
-  background-color: #fff;
-  
+  background-color: #fff;  
 }
 
 img {
@@ -119,6 +98,10 @@ img {
   margin-right: 100px;
   height: auto;
   float: right;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 #menu {  
@@ -132,6 +115,10 @@ img {
 
 #menu a:first-child {
   margin-left: 100px;
+}
+
+#menu a:hover {
+  cursor: pointer;
 }
 
 #home {
@@ -149,8 +136,8 @@ img {
 }
 
 #home h2 {
-  padding-top: 100px;
-  font-size: large;
+  padding-top: 70px;
+  font-size: x-large;
   font-weight: bolder;
 }
 
@@ -165,13 +152,18 @@ img {
 
 #home a {
   width: 150px;
-  height: 30px;
-  padding-top: 2px;
+  height: 50px;
+  padding-top: 13px;
+  margin-top: 40px;
   font-weight: normal;
   font-size: small;
   color: white;
   display: inline-block;
   background-color: #2ECC71FF;
+}
+
+#home a:hover {
+  cursor: pointer;
 }
 
 #services {
@@ -188,7 +180,8 @@ img {
 
 #services h4 {
   margin-bottom: 50px;
-  font-size: normal;
+  font-size: medium;
+  font-weight: bold;
 }
 
 #services h5{
@@ -232,7 +225,7 @@ img {
 
 .work {
   width: 100%;
-  height: 500px;
+  height: auto;
   text-align: center;
 }
 
@@ -250,15 +243,13 @@ img {
   width: 90%;
   height: auto;
   margin-top: 10px; 
-  margin-left: 80px;
-  float: left; 
-  
+  margin-left: 70px;
+  float: left;  
 }
 
 .img h4 {
   padding-top: 250px;
-  
-  
+  margin-bottom: 100px;
 }
 
 .img {
@@ -268,12 +259,15 @@ img {
   margin: 80px 40px;
   background-repeat: no-repeat;
   background-size: 100%;
+}
 
+.img:hover {
+  cursor: pointer;
 }
  
 .uno {
   background-image: url(../assets/images/work-1.jpg);
-  margin-left: 200px;
+  margin-left: 160px;
   
 }
 
@@ -289,7 +283,7 @@ img {
 .cuatro {
   background-image: url(../assets/images/work-4.jpg);
   clear: left;
-  margin-left: 200px;
+  margin-left: 160px;
 }
 
 .cinco {
@@ -303,7 +297,7 @@ img {
 .siete {
   background-image: url(../assets/images/work-7.jpg);
   clear: left;
-  margin-left: 200px;
+  margin-left: 160px;
 }
 
 .ocho {
@@ -317,8 +311,8 @@ img {
 .copyrigth {
   width: 1350px;
   height: 60px;
+  padding-top: 1px;
   background-color: #373B47FF;
   text-align: center;
-  color: white;
-  margin-top: 4px;
+  color: white;  
 }
