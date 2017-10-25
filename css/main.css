@@ -159,7 +159,7 @@ img:hover {
   font-size: small;
   color: white;
   display: inline-block;
-  background-color: #2ECC71FF;
+  background-color: #2ECC71;
 }
 
 #home a:hover {
@@ -169,7 +169,7 @@ img:hover {
 #services {
   width: 100%;
   height: 500px;
-  background-color: #F17C72FF;
+  background-color: #F17C72;
   color: white; 
   text-align: center; 
 }
@@ -236,7 +236,7 @@ img:hover {
 
 .work h4 {
   margin-bottom: 50px; 
-  font-size: normal;
+  font-size: medium;
 }
 
 .hero {
@@ -312,7 +312,7 @@ img:hover {
   width: 1350px;
   height: 60px;
   padding-top: 1px;
-  background-color: #373B47FF;
+  background-color: #373B47;
   text-align: center;
   color: white;  
 }
